@@ -4,7 +4,7 @@ h1 {
 }
 #p2{
   clear: right;
-  margin: 10px;
+  margin: 20px;
 }
 
 #p1{
@@ -12,19 +12,22 @@ h1 {
 	width: 100px;
 	height: 50px;
 	margin-top: 0px;
-  border-width: 5px;
+  border: 2px solid;
 	background-color: #FF22AA;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 div{
-  margin: 10px;
+  box-sizing: border-box;
+  margin: 0px;
 	padding: 0px;
 }
 
 @media (min-width: 992px) {
   .col-lg-4{
-    box-sizing: border-box;
     float: left;
-    border: 1px solid green;
+    border: 5px solid green;
     background-color: purple;
   }
   
@@ -36,8 +39,7 @@ div{
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6, .col-md-12{
     float: left;
-    box-sizing: border-box;
-    border: 1px solid green;
+    border: 5px dotted;
     background-color: red;
   }
   .col-md-6 {
@@ -51,9 +53,8 @@ div{
 @media (max-width: 767px) {
   .col-xs-12{
     float: left;
-    box-sizing: border-box;
-    border: 1px solid green;
-    background-color: purple;
+    border: 5px solid green;
+    background-color: blue;
   }
   .col-md-12 {
     width: 100%;
