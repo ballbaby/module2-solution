@@ -1,8 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 h1 {
   background-color: grey;
   color: maroon;
 	text-align: center;
   margin-top: 20px;
+}
+body{
+  background-color: #27ac4a;
+  margin: 0px;
+  padding: 0px;
 }
 #p2{
   clear: right;
@@ -18,11 +28,13 @@ h1 {
 	background-color: #FF22AA;
   text-align: center;
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 div{
-  box-sizing: border-box;
-  margin: 0px;
+  
+  margin: 5px;
 	padding: 0px;
 }
 
